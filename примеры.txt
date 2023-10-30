@@ -1,0 +1,80 @@
+<tr>
+          <th>n</th>
+          <th>Название компании</th>
+          <th>Должность</th>
+          <th>Год</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Yandex</td>
+          <td>Fronted разработчик</td>
+          <td>2024-2034</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Google</td>
+          <td>Backend разработчик</td>
+          <td>2034-2044</td>
+</tr>
+//
+cellspacing = 15 - отступ 15 пикселей в таблице
+ <body style="background: red;">
+ roboto font - шрифты с сайта
+/* text-transform: capitalize; */ - каждое слово с заглавной буквы
+/* letter-spacing: 5px; */ - отступ между буквами 5 пикселей
+Box model:
+1.main
+2./* padding: 15px; */ - отступ внутри
+3.
+4. margin: 15px; - отступ снаружи
+bla bla mdn - терминология
+.box_model > div  - значения принимают только дочерние дивы
+
+
+.box_model > div 
+{
+    float: left;
+    background: black;
+    height: 200px;
+    width: 25%;
+    border: 4px solid red;
+    box-sizing: border-box;
+}
+
+
+
+<div class="box_model">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+
+    </div>
+
+    <div style="margin-bottom: 500px;"></div>
+
+  *
+  {
+    padding: 0;
+    margin: 0;
+  }
+
+  обнуление отступов
+  
+  list-style: none; - убрать цифры из списка
+
+  .tabel th:nth-child(odd)
+{
+    background-color: red;
+}
+изменение четного
+
+<div class="card bg_persikoviy">
+        <h2>Список лабараторных работ</h2>
+        <p>
+          <strong><a href="лабараторные работы.html">Посмотреть список</a></strong>
+        </p>
+      </div>
+
+перенаправление на файл лабараторные работы. html

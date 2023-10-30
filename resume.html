@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Resume</title>
+    <link href="resume(css).css" rel="stylesheet" />
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="info">
+        <img src="rofl.jpg" alt="моё фото" class="avatar" />
+        <h1>Поликарпов Даниил Александрович</h1>
+        <p>Я - студент, обучающийся в <strong>МТУСИ</strong> <br /> Хочу попасть на стажировку в <strong>Yandex</strong></p>
+
+        <div class="meinweb">
+          <h2>Список моих социальных сетей</h2>
+            <strong><a class="connection" href="https://vk.com/grbisbagrbisba" target="_blank">Vk</a></strong>
+            |
+            <strong><a class="connection" href="https://t.me/grbisba" target="_blank">Telegramm</a></strong>
+            |
+            <strong><a class="connection" href="https://github.com/Grbisba" target="_blank">GitHub</a></strong>
+        </div>
+      </div>
+
+
+      <div class="card bg_persikoviy">
+        <h2>Мои хобби</h2>
+        <ol class="list">
+          <li>Люблю готовить</li>
+          <li>Люблю путешествовать</li>
+          <li>Люблю программировать</li>
+        </ol>
+      </div>
+
+      <div class="card bg_persikoviy">
+        <h2>Изучаемые языки</h2>
+        <h3>Языки программирования</h3>
+        <ol class="list">
+           <li>C++</li>
+           <li>Python</li>
+           <li>html</li>
+           <li>java</li>
+           <li>CSS</li>
+        </ol>
+        <h3>Формальные языки</h3>
+        <ol class="list">
+          <li>Русский язык</li>
+          <li>Английский язык</li>
+        </ol>
+      </div>
+
+      <div class="card bg_persikoviy">
+        <h2>Опыт работы</h2>
+        <table class="tabel">
+          <thead>
+            <th>Название компании</th>
+            <th>Должность</th>
+            <th>Год</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Yandex</td>
+              <td>Fronted разработчик</td>
+              <td>2024 - 2034</td>
+            </tr>
+            <tr>
+              <td>Google</td>
+              <td>Backend разработчик</td>
+              <td>2034 - 2044</td>
+            </tr>
+          </tbody>
+          <tfoot></tfoot>
+          <tr></tr>
+        </table>
+      </div>
+
+      <div class="card bg_persikoviy">
+        <h2>Список лабараторных работ</h2>
+          <ol class="listi">
+            <li><a class = "labato" href="https://github.com/Grbisba/laba1" target="_blank">Лабараторная работа</a></li>
+            <li><a class = "labato" href="https://github.com/Grbisba/laba2" target="_blank">Лабараторная работа</a></li>
+            <li><a class = "labato" href="https://github.com/Grbisba/laba3" target="_blank">Лабараторная работа</a></li>
+          </ol>
+
+      </div>
+
+      <div class="contact">
+        <h2>Связаться со мной</h2>
+        <form action="/">
+          <div class="row">
+            <div class="form_group">
+              <label for="name" class ="none">Ваше имя:</label>
+              <input type="text" id="name" placeholder="Даниил" />
+            </div>
+            <div class="form_group">
+              <label for="email" class ="none">Ваш email:</label>
+              <input type="email" id="email" placeholder="maile@yandex.ru" />
+            </div>
+          </div>
+          <div class="form_group">
+            <label for="text" class ="none">Ваше сообщение:</label>
+            <textarea id="text" rows="0" cols="0"></textarea>
+            <input type="submit" value="Связаться" />
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </body>
+</html>
