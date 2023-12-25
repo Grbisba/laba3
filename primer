@@ -1,0 +1,18 @@
+<h2>Связаться со мной</h2>
+        <form action="/">
+          <div class="row">
+            <div class="form_group">
+              <label for="name" class ="none">Ваше имя:</label>
+              <input type="text" id="name" placeholder="Даниил" />
+            </div>
+            <div class="form_group">
+              <label for="email" class ="none">Ваш email:</label>
+              <input type="email" id="email" placeholder="maile@yandex.ru" />
+            </div>
+          </div>
+          <div id = "form" class="form_group">
+            <label for="text" class ="none">Ваше сообщение:</label>
+            <textarea id="text" rows="0" cols="0"></textarea>
+            <input type="submit" value="Связаться" />
+          </div>
+        </form>

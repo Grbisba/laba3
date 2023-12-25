@@ -2,7 +2,7 @@ body
 {
     background-color: rgb(220, 239, 240);
     color: rgb(255, 255, 255);
-    font: bold 16px 'Roboto', sans-serif;
+    font: bold 20px 'Roboto', sans-serif;
     letter-spacing: 3px;
     text-shadow: 
 		-0   -2px 2px #000000,
@@ -33,7 +33,7 @@ body
 
 
 .connection{
-    color: black;
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
@@ -44,12 +44,12 @@ body
 
 .connection:active
 {
-    color: blue;
+    color: #db7093;
 }
 
 .connection:visited
 {
-    color: gray;
+    color: rgb(196, 196, 196);
 }
 
 .labato
@@ -68,6 +68,31 @@ body
     width: 400px;
     border-radius: 20px;
     box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+#more {display: none;}
+
+.push
+{
+    margin: 0px 500px 0px 0px;
+    background-color:#db7093;
+    padding: 10px 50px 10px 50px;
+    border-radius: 20px;
+}
+.push:hover
+{
+    background-color: #c87ac5;
+}
+.push:active
+{
+    top: 5px;
+    box-shadow: 0 2px 0 rgb(0, 0, 0);
+}
+.gif
+{
+    border-radius: 20px;
+    background-color: none;
+    margin-bottom:0px;
 }
 
 .info
@@ -114,7 +139,7 @@ body
     border-radius: 15px;
 } */
 
-.container
+.container /*Грубо говоря хединг*/
 {
     max-width: 750px;
     margin: auto;
@@ -149,15 +174,23 @@ body
 .tabel
 {
     width: 100%;
+    border: #db7093 5px solid;
 }
 
 .tabel th
 {
     padding-bottom: 10px;
+    border:#db7093 3px solid;
+    padding: 10px 10px 10px 10px;
+    background-color: #ffe9a8;
+    
 }
 .tabel td
 {
     padding-bottom: 10px;
+    border:#db7093 3px solid;
+    padding: 10px 10px 10px 10px;
+    background-color: #ffe9a8;
 }
 .tabel td:nth-child()
 {
@@ -169,7 +202,7 @@ body
      text-align: center;
 }
 
-.form_group label
+.form_item label
 {
     display: block;
     font-size: 14px;
@@ -178,17 +211,30 @@ body
     letter-spacing: 0px;
 }
 
-.form_group input, .form_group textarea
+.form_item input, .form_item textarea
 {
     width: 100%;
     box-sizing: border-box;
     border: none;
-    background: transparent;
+    background: white;
     border-bottom: 1px solid #ccc;
-    color: black;
+    color: black;   
     padding: 15px 0 10px;
     outline: none;
     font-family: bold 26px 'Roboto', sans-serif;
+}
+
+.form_input._error
+{
+    box-shadow: 0 0 30px rgb(0, 0, 0);
+}
+
+.form_button
+{
+    border-radius: 5px;
+    display: flex;
+    background-color: #7300ff;
+    color: #00ff1a
 }
 
 .row
